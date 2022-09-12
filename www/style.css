@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+#uisidebar, .dashboard-page, div.ui.menu.dashboard-header, div.ui.padded.grid {
+    background: rgb(55, 55, 58);
+    color: white;
+}
+
+#uisidebar a, div.ui.menu.dashboard-header span, div.ui.menu.dashboard-header a {
+    color: white;
+}
+
+#uisidebar {
+    border-right: 1px solid rgba(218, 218, 218, 0.292);
+}
+
+.ui.segment {
+    background: rgb(55, 55, 58) !important;
+    border: 1px solid rgba(218, 218, 218, 0.2) !important;
+}
+
+div.ui.top.dashboard-header {
+    border: 1px solid rgba(218, 218, 218, 1) !important;
+    border-bottom: 1px solid rgba(218, 218, 218, 0.292) !important;
+}
+
+div.attached.bottom.pushable.segment.ui.class2 {
+    border: 1px solid rgba(218, 218, 218, 1) !important;
+    border-top: none !important;
+}
+
+.state-name{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.state-up i, .state-up{
+    font-size: 20px;
+    color: #B4FADC;
+}
+
+.state-down i, .state-down {
+    font-size: 20px;
+    color: #0377A8;
+}
+
+.state-up-text{
+    font-size: 9px;
+    color: #B4FADC;
+}
+
+.state-down-text {
+    font-size: 9px;
+    color: #0377A8;
+}
+
+.tab-content__title {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 8px auto !important;
+}
